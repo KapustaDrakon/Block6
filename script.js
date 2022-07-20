@@ -1,3 +1,8 @@
+const buttonMore = document.querySelector(".button");
+const buttonMoreImg = document.querySelector(".button__img");
+const contMore = document.querySelector(".container2");
+const buttonMoreText = document.querySelector(".button__text");
+
 new Swiper(".swiper", {
   pagination: {
     el: ".swiper-pagination",
@@ -18,11 +23,6 @@ new Swiper(".swiper", {
     },
   },
 });
-
-var buttonMore = document.querySelector(".button");
-var buttonMoreImg = document.querySelector(".button__img");
-var contMore = document.querySelector(".container2");
-var buttonMoreText = document.querySelector(".button__text");
 
 function buttonClick() {
   if (!contMore.classList.contains("container2-more")) {

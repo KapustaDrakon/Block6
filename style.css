@@ -12,7 +12,7 @@ body {
 }
 @font-face {
   font-family: "TT Lakes";
-  src: url(fonts/TTLakes-Medium.ttf);
+  src: url(assets/font_assets/fonts/TTLakes-Medium.ttf);
 }
 
 @media (min-width: 1120px) {
@@ -149,7 +149,7 @@ span.swiper-pagination-bullet {
   border: 1px solid #eaeaea;
   border-radius: 6px;
 
-  background: url(images/go.png) right 16px top 16px #ffffff no-repeat;
+  background: url(assets/font_assets/images/go.png) right 16px top 16px #ffffff no-repeat;
 }
 .swiper-slide__button1_image {
   margin-top: 20px;
